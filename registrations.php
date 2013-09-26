@@ -71,16 +71,17 @@ if (mysqli_connect_errno())
   echo "Failed to connect to MySQL: " . mysqli_connect_error();
   }
 
-$sql="SELECT team, name1, name2 from Team";
+$sql="SELECT * from Team";
 $result = mysqli_query($con, $sql);
-
+$num_rows = mysqli_num_rows($result); 
+echo "<h1>$num_rows</h1>";
 if (!$result)
 {
-  die('Error: ' . mysqli_error($con));
+  die('Error: ' . mysql_error($con));
 }
 echo "<table><tr><th>Team Name</th><th>Member 1</th><th>Member 2</th></tr>"; // start a table tag in the HTML
 
-while($row = mysql_fetch_array($result)){   //Creates a loop to loop through results
+while($row = mysql_fetch_array($result, MYSQL_ASSOC)){   //Creates a loop to loop through results
 echo "<tr><td>" . $row['team'] . "</td><td>" . $row['name1'] . "</td><td>" . $row['name2'] . "</td></tr>";  //$row['index'] the index here is a field name
 }
 
@@ -146,4 +147,4 @@ mysqli_close($con);
       </div>
     </div>
   </body>
-</html>";
+</html>
