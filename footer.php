@@ -21,7 +21,7 @@ echo "<iframe src='http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fww
                   <div id='primary'>
                     <ul class='links'>
                       <li class='menu-153 active-trail first active'><a href='/home' title='' class='active'>Home</a></li>
-                      <li class='menu-886'><a href='/register' title='Media'>Registrations</a></li>
+                      <li class='menu-886'><a href='/registrations.php' title='Media'>Registrations</a></li>
                       <li class='menu-886'><a href='/prizes' title='Media'>Prizes</a></li>
                       <li class='menu-133'><a href='/resources' title=''>Resources</a></li>                      
                       <li class='menu-132'><a href='/store' title=''>Store</a></li>

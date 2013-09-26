@@ -1,3 +1,4 @@
+
 <?php
 include 'header.php';?>
 <div id="fb-root"></div>
@@ -68,8 +69,11 @@ include 'header.php';?>
     FB.api('/me/feed', 'post', { message: "I'm going to Attend the Scratch Weekend. Are you?", link :'http://day.scratch.wncc-iitb.org/',picture:'http://www.cbsomagh.org/Portals/cbsomagh/Clubs%20&%20Societies/Scrat%20logo.jpg',name:'Scratch Hack Weekend',description:'Scratch Hack Weekend Conducted by Wncc IIT Bombay' }, function(response){
   if (!response || response.error) {
     alert('Error occured' + response.error);
+<<<<<<< HEAD
   } else {
     alert('Post ID: ' + response.id);
+=======
+>>>>>>> 5cd952f65fe1a6c96182ca63335b7a2e16138b68
   }
 })
   }
@@ -101,6 +105,7 @@ function attend()
 <form method='post' action='reg.php'>
 <legend>Register your team!</legend>
 <table>
+<tr><td>Team Name : </td><td><input width='100px' type='text' name='team'></td></tr>
 <tr><td>Member1 Name : </td><td><input width='100px' type='text' name='name1'></td></tr>
 <tr><td>Member1 Phone : </td><td><input width='100px' type='text' name='phone1'></td></tr>
 <tr><td>Member1 E-mail : </td><td><input width='100px' type='text' name='mail1'></td></tr>
@@ -113,3 +118,4 @@ function attend()
 <?php 
 include 'footer.php';
 ?>
+
