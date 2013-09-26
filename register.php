@@ -1,5 +1,5 @@
 <?php
-include 'header.php';
+include 'header.php';?>
 <form>
 <legend>Register your team!</legend>
 <table>
@@ -12,5 +12,6 @@ include 'header.php';
 </table>
 <input type='submit' name='submit' value='Register'>
 </form>
+<?php 
 include 'footer.php';
 ?>
