@@ -1,5 +1,4 @@
-<?php
-echo "<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Strict//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd'>
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Strict//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd'>
 <!-- saved from url=(0031)http://day.scratch.mit.edu/home -->
 <html>
   <head>
@@ -64,8 +63,32 @@ echo "<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Strict//EN' 'http://www.w3.or
                               <div class='panel-flexible-inside panels-flexible-1-inside'>
                                 <div class='panels-flexible-row panels-flexible-row-1-row_2 panels-flexible-row-last clear-block'>
                                   <div class='inside panels-flexible-row-inside panels-flexible-row-1-row_2-inside panels-flexible-row-inside-last clear-block'>
-                                  HELLO!!
-                                  </div>
+<?php
+$con=mysqli_connect("wncc-iitb.org","sushant","wnccsushant","scratch_db");
+// Check connection
+if (mysqli_connect_errno())
+  {
+  echo "Failed to connect to MySQL: " . mysqli_connect_error();
+  }
+
+$sql="SELECT team, name1, name2 from Team";
+$result = mysqli_query($con, $sql);
+
+if (!mysqli_query($con,$sql))
+{
+  die('Error: ' . mysqli_error($con));
+}
+echo "<table><tr><th>Team Name</th><th>Member 1</th><th>Member 2</th>"; // start a table tag in the HTML
+
+while($row = mysql_fetch_array($result)){   //Creates a loop to loop through results
+echo "<tr><td>" . $row['team'] . "</td><td>" . $row['name1'] . "</td><td>" . $row['name2'] . "</td></tr>";  //$row['index'] the index here is a field name
+}
+
+echo "</table>"; //Close the table in HTML
+mysqli_close($con);
+
+?>
+                                </div>
                               </div>
                             </div>
                           </div>          
@@ -124,4 +147,3 @@ echo "<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Strict//EN' 'http://www.w3.or
     </div>
   </body>
 </html>";
-?>

@@ -16,7 +16,7 @@ if (!mysqli_query($con,$sql))
   }
 echo "1 record added";
 mysqli_close($con);
-
+header('Location: registrations.php');
 /*create table Team(
 team varchar(50),
 name1 varchar(50),
