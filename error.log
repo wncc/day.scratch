@@ -121,3 +121,11 @@
 [Thu Sep 26 12:53:23 2013] [error] [client 103.21.124.54] PHP Parse error:  syntax error, unexpected 'include' (T_INCLUDE) in /var/www/scratch/day/register.php on line 3, referer: http://day.scratch.wncc-iitb.org/
 [Thu Sep 26 17:54:29 2013] [error] [client 103.21.124.54] File does not exist: /var/www/scratch/day/Scratch   Day_files, referer: http://day.scratch.wncc-iitb.org/
 [Thu Sep 26 12:55:11 2013] [error] [client 103.21.124.54] File does not exist: /var/www/scratch/day/Scratch   Day_files, referer: http://day.scratch.wncc-iitb.org/register.php
+[Thu Sep 26 18:06:36 2013] [error] [client 103.21.125.54] PHP Parse error:  syntax error, unexpected '<' in /var/www/scratch/day/register.php on line 3, referer: http://day.scratch.wncc-iitb.org/
+[Thu Sep 26 18:06:37 2013] [error] [client 103.21.125.54] PHP Parse error:  syntax error, unexpected '<' in /var/www/scratch/day/register.php on line 3
+[Thu Sep 26 13:06:38 2013] [error] [client 103.21.125.54] PHP Parse error:  syntax error, unexpected '<' in /var/www/scratch/day/register.php on line 3
+[Thu Sep 26 18:07:43 2013] [error] [client 103.21.125.54] File does not exist: /var/www/scratch/day/Scratch   Day_files, referer: http://day.scratch.wncc-iitb.org/register.php
+[Thu Sep 26 18:07:55 2013] [error] [client 103.21.125.54] File does not exist: /var/www/scratch/day/Scratch   Day_files, referer: http://day.scratch.wncc-iitb.org/register.php?name1=&phone1=&mail1=&name2=&phone2=&mail2=&submit=Register
+[Thu Sep 26 18:10:59 2013] [error] [client 103.21.127.54] File does not exist: /var/www/scratch/day/Scratch   Day_files, referer: http://day.scratch.wncc-iitb.org/register.php?name1=&phone1=&mail1=&name2=&phone2=&mail2=&submit=Register
+[Thu Sep 26 18:11:07 2013] [error] [client 103.21.127.54] File does not exist: /var/www/scratch/day/Scratch   Day_files, referer: http://day.scratch.wncc-iitb.org/register.php
+[Thu Sep 26 13:11:44 2013] [error] [client 103.21.127.54] script '/var/www/scratch/day/reg.php' not found or unable to stat, referer: http://day.scratch.wncc-iitb.org/register.php
