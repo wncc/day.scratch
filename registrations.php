@@ -78,7 +78,7 @@ if (!$result)
 {
   die('Error: ' . mysqli_error($con));
 }
-echo "<table><tr><th>Team Name</th><th>Member 1</th><th>Member 2</th>"; // start a table tag in the HTML
+echo "<table><tr><th>Team Name</th><th>Member 1</th><th>Member 2</th></tr>"; // start a table tag in the HTML
 
 while($row = mysql_fetch_array($result)){   //Creates a loop to loop through results
 echo "<tr><td>" . $row['team'] . "</td><td>" . $row['name1'] . "</td><td>" . $row['name2'] . "</td></tr>";  //$row['index'] the index here is a field name
