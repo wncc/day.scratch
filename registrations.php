@@ -74,7 +74,7 @@ if (mysqli_connect_errno())
 $sql="SELECT team, name1, name2 from Team";
 $result = mysqli_query($con, $sql);
 
-if (!mysqli_query($con,$sql))
+if (!$result)
 {
   die('Error: ' . mysqli_error($con));
 }

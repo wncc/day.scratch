@@ -131,3 +131,47 @@
 [Thu Sep 26 13:11:44 2013] [error] [client 103.21.127.54] script '/var/www/scratch/day/reg.php' not found or unable to stat, referer: http://day.scratch.wncc-iitb.org/register.php
 [Thu Sep 26 18:20:42 2013] [error] [client 103.21.125.54] File does not exist: /var/www/scratch/day/Scratch   Day_files, referer: http://day.scratch.wncc-iitb.org/register.php
 [Thu Sep 26 18:21:42 2013] [error] [client 103.21.127.55] File does not exist: /var/www/scratch/day/Scratch   Day_files, referer: http://day.scratch.wncc-iitb.org/
+[Thu Sep 26 18:23:12 2013] [error] [client 103.21.125.54] script '/var/www/scratch/day/reg.php' not found or unable to stat, referer: http://day.scratch.wncc-iitb.org/register.php
+[Thu Sep 26 18:23:45 2013] [error] [client 103.21.127.55] File does not exist: /var/www/scratch/day/Scratch   Day_files, referer: http://day.scratch.wncc-iitb.org/
+[Thu Sep 26 13:23:47 2013] [error] [client 103.21.127.55] File does not exist: /var/www/scratch/day/Scratch   Day_files, referer: http://day.scratch.wncc-iitb.org/
+[Thu Sep 26 18:23:51 2013] [error] [client 103.21.127.55] Negotiation: discovered file(s) matching request: /var/www/scratch/day/register (None could be negotiated)., referer: http://day.scratch.wncc-iitb.org/
+[Thu Sep 26 18:23:53 2013] [error] [client 103.21.127.55] File does not exist: /var/www/scratch/day/favicon.ico
+[Thu Sep 26 18:23:54 2013] [error] [client 103.21.127.55] File does not exist: /var/www/scratch/day/favicon.ico
+[Thu Sep 26 13:24:30 2013] [error] [client 103.21.127.55] File does not exist: /var/www/scratch/day/Scratch   Day_files, referer: http://day.scratch.wncc-iitb.org/
+[Thu Sep 26 18:24:37 2013] [error] [client 103.21.127.55] File does not exist: /var/www/scratch/day/Scratch   Day_files, referer: http://day.scratch.wncc-iitb.org/prizes
+[Thu Sep 26 18:25:03 2013] [error] [client 103.21.127.55] File does not exist: /var/www/scratch/day/Scratch   Day_files, referer: http://day.scratch.wncc-iitb.org/resources
+[Thu Sep 26 18:25:20 2013] [error] [client 103.21.127.55] File does not exist: /var/www/scratch/day/scratch-intro.pdf, referer: http://day.scratch.wncc-iitb.org/resources
+[Thu Sep 26 18:25:21 2013] [error] [client 103.21.127.55] File does not exist: /var/www/scratch/day/favicon.ico
+[Thu Sep 26 13:25:49 2013] [error] [client 103.21.127.55] Negotiation: discovered file(s) matching request: /var/www/scratch/day/register (None could be negotiated)., referer: http://day.scratch.wncc-iitb.org/
+[Thu Sep 26 18:51:25 2013] [error] [client 103.21.124.54] File does not exist: /var/www/scratch/day/home, referer: http://day.scratch.wncc-iitb.org/register.php
+[Thu Sep 26 13:51:30 2013] [error] [client 103.21.124.54] File does not exist: /var/www/scratch/day/Scratch   Day_files, referer: http://day.scratch.wncc-iitb.org/
+[Thu Sep 26 13:51:36 2013] [error] [client 103.21.124.54] File does not exist: /var/www/scratch/day/Scratch   Day_files, referer: http://day.scratch.wncc-iitb.org/registrations.php
+[Thu Sep 26 18:59:48 2013] [error] [client 103.21.125.55] File does not exist: /var/www/scratch/day/Scratch   Day_files, referer: http://day.scratch.wncc-iitb.org/
+[Thu Sep 26 18:59:52 2013] [error] [client 103.21.125.55] File does not exist: /var/www/scratch/day/Scratch   Day_files, referer: http://day.scratch.wncc-iitb.org/
+[Thu Sep 26 19:00:15 2013] [error] [client 103.21.125.55] File does not exist: /var/www/scratch/day/Scratch   Day_files, referer: http://day.scratch.wncc-iitb.org/prizes
+[Thu Sep 26 19:00:24 2013] [error] [client 103.21.127.55] File does not exist: /var/www/scratch/day/Scratch   Day_files, referer: http://day.scratch.wncc-iitb.org/resources
+[Thu Sep 26 14:00:37 2013] [error] [client 103.21.127.55] File does not exist: /var/www/scratch/day/Scratch   Day_files, referer: http://day.scratch.wncc-iitb.org/about
+[Thu Sep 26 19:00:43 2013] [error] [client 103.21.125.54] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /var/www/scratch/day/registrations.php on line 83, referer: http://day.scratch.wncc-iitb.org/
+[Thu Sep 26 19:00:44 2013] [error] [client 103.21.125.54] File does not exist: /var/www/scratch/day/Scratch   Day_files, referer: http://day.scratch.wncc-iitb.org/registrations.php
+[Thu Sep 26 19:00:48 2013] [error] [client 103.21.125.54] File does not exist: /var/www/scratch/day/Scratch   Day_files, referer: http://day.scratch.wncc-iitb.org/register.php
+[Thu Sep 26 19:00:52 2013] [error] [client 103.21.127.55] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /var/www/scratch/day/registrations.php on line 83, referer: http://day.scratch.wncc-iitb.org/about
+[Thu Sep 26 19:00:53 2013] [error] [client 103.21.127.55] File does not exist: /var/www/scratch/day/Scratch   Day_files, referer: http://day.scratch.wncc-iitb.org/registrations.php
+[Thu Sep 26 14:01:30 2013] [error] [client 103.21.125.54] PHP Notice:  Undefined index: email1 in /var/www/scratch/day/reg.php on line 11, referer: http://day.scratch.wncc-iitb.org/register.php
+[Thu Sep 26 14:01:30 2013] [error] [client 103.21.125.54] PHP Notice:  Undefined index: email2 in /var/www/scratch/day/reg.php on line 11, referer: http://day.scratch.wncc-iitb.org/register.php
+[Thu Sep 26 19:03:02 2013] [error] [client 103.21.125.54] PHP Notice:  Undefined index: email1 in /var/www/scratch/day/reg.php on line 11, referer: http://day.scratch.wncc-iitb.org/register.php
+[Thu Sep 26 19:03:02 2013] [error] [client 103.21.125.54] PHP Notice:  Undefined index: email2 in /var/www/scratch/day/reg.php on line 11, referer: http://day.scratch.wncc-iitb.org/register.php
+[Thu Sep 26 14:05:08 2013] [error] [client 103.21.127.55] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /var/www/scratch/day/registrations.php on line 83
+[Thu Sep 26 19:05:09 2013] [error] [client 103.21.127.55] File does not exist: /var/www/scratch/day/Scratch   Day_files, referer: http://day.scratch.wncc-iitb.org/registrations.php
+[Thu Sep 26 14:05:17 2013] [error] [client 103.21.125.54] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /var/www/scratch/day/registrations.php on line 83, referer: http://day.scratch.wncc-iitb.org/register.php
+[Thu Sep 26 19:05:17 2013] [error] [client 103.21.125.54] File does not exist: /var/www/scratch/day/Scratch   Day_files, referer: http://day.scratch.wncc-iitb.org/registrations.php
+[Thu Sep 26 19:05:21 2013] [error] [client 103.21.125.54] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /var/www/scratch/day/registrations.php on line 83, referer: http://day.scratch.wncc-iitb.org/register.php
+[Thu Sep 26 19:05:22 2013] [error] [client 103.21.125.54] File does not exist: /var/www/scratch/day/Scratch   Day_files, referer: http://day.scratch.wncc-iitb.org/registrations.php
+[Thu Sep 26 14:07:04 2013] [error] [client 103.21.125.54] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /var/www/scratch/day/registrations.php on line 83, referer: http://day.scratch.wncc-iitb.org/register.php
+[Thu Sep 26 19:07:04 2013] [error] [client 103.21.125.54] File does not exist: /var/www/scratch/day/Scratch   Day_files, referer: http://day.scratch.wncc-iitb.org/registrations.php
+[Thu Sep 26 19:08:38 2013] [error] [client 103.21.125.54] PHP Warning:  mysql_query(): Access denied for user 'www-data'@'localhost' (using password: NO) in /var/www/scratch/day/registrations.php on line 75, referer: http://day.scratch.wncc-iitb.org/register.php
+[Thu Sep 26 19:08:38 2013] [error] [client 103.21.125.54] PHP Warning:  mysql_query(): A link to the server could not be established in /var/www/scratch/day/registrations.php on line 75, referer: http://day.scratch.wncc-iitb.org/register.php
+[Thu Sep 26 19:08:38 2013] [error] [client 103.21.125.54] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /var/www/scratch/day/registrations.php on line 83, referer: http://day.scratch.wncc-iitb.org/register.php
+[Thu Sep 26 19:08:38 2013] [error] [client 103.21.125.54] File does not exist: /var/www/scratch/day/Scratch   Day_files, referer: http://day.scratch.wncc-iitb.org/registrations.php
+[Thu Sep 26 19:09:32 2013] [error] [client 103.21.127.55] File does not exist: /var/www/scratch/day/Scratch   Day_files, referer: http://day.scratch.wncc-iitb.org/
+[Thu Sep 26 14:10:54 2013] [error] [client 103.21.127.54] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /var/www/scratch/day/registrations.php on line 83, referer: http://day.scratch.wncc-iitb.org/register.php
+[Thu Sep 26 14:10:55 2013] [error] [client 103.21.127.54] File does not exist: /var/www/scratch/day/Scratch   Day_files, referer: http://day.scratch.wncc-iitb.org/registrations.php

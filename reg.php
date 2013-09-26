@@ -8,7 +8,7 @@ if (mysqli_connect_errno())
 
 $sql="INSERT INTO Team (team, name1, phone1, email1, name2, phone2, email2)
 VALUES
-('$_POST[team]',$_POST[name1]','$_POST[phone1]','$_POST[mail1]', '$_POST[name2]','$_POST[phone2]','$_POST[mail2]')";
+('$_POST[team]','$_POST[name1]','$_POST[phone1]','$_POST[mail1]', '$_POST[name2]','$_POST[phone2]','$_POST[mail2]')";
 
 if (!mysqli_query($con,$sql))
   {
@@ -16,7 +16,7 @@ if (!mysqli_query($con,$sql))
   }
 echo "1 record added";
 mysqli_close($con);
-header('Location: registrations.php');
+//header('Location: registrations.php');
 /*create table Team(
 team varchar(50),
 name1 varchar(50),
